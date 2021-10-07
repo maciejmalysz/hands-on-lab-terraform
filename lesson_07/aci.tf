@@ -1,6 +1,6 @@
 
 resource "aci_tenant" "aci_tenant" {
-  name        = var.aci_tenant    
+  name        = var.aci_tenant
 }
 
 resource "aci_bridge_domain" "bd_for_subnet" {
